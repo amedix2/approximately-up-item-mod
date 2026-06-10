@@ -33,8 +33,8 @@ Based on https://github.com/DAMIOTF/ApproximatelyUP-MOD-MENU.
 1. Download and install [MelonLoader Installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest).
 2. Select `ApproximatelyUp.exe` in your Approximately Up Demo game folder.
 3. Start the game once, then close it.
-4. Download the latest release of this mod.
-5. Copy `ApproximatelyUpMOD.dll` into the game's `Mods` folder.
+4. Download the latest release archive of this mod.
+5. Extract the archive into the Approximately Up Demo game folder.
 6. Start the game.
 
 ### If the Mod Does Not Work After a Game Update
@@ -48,10 +48,11 @@ If **F9/F10 do nothing** and the MelonLoader log contains:
 Do this:
 
 1. Close the game.
-2. Put `PatchUnityCoreModule.ps1` into the game folder or into the `Mods` folder.
-3. Right-click `PatchUnityCoreModule.ps1`.
-4. Choose **Run with PowerShell**.
-5. Start the game again.
+2. Right-click `PatchUnityCoreModule.ps1` in the game folder.
+3. Choose **Run with PowerShell**.
+4. Start the game again.
+
+If you only downloaded the `.dll`, download the full release archive. It includes `PatchUnityCoreModule.ps1`.
 
 You only need to run this script when the mod stops working after a game update.
 
@@ -85,8 +86,8 @@ You only need to run this script when the mod stops working after a game update.
 1. Скачайте и установите [MelonLoader Installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest).
 2. В установщике выберите `ApproximatelyUp.exe` в папке игры Approximately Up Demo.
 3. Запустите игру один раз, затем закройте ее.
-4. Скачайте последний релиз этого мода.
-5. Скопируйте `ApproximatelyUpMOD.dll` в папку `Mods` игры.
+4. Скачайте последний release-архив этого мода.
+5. Распакуйте архив в папку игры Approximately Up Demo.
 6. Запустите игру.
 
 ### Если Мод Не Работает После Обновления Игры
@@ -100,10 +101,11 @@ You only need to run this script when the mod stops working after a game update.
 Сделайте так:
 
 1. Закройте игру.
-2. Положите `PatchUnityCoreModule.ps1` в папку игры или в папку `Mods`.
-3. Нажмите правой кнопкой по `PatchUnityCoreModule.ps1`.
-4. Выберите **Run with PowerShell**.
-5. Запустите игру снова.
+2. Нажмите правой кнопкой по `PatchUnityCoreModule.ps1` в папке игры.
+3. Выберите **Run with PowerShell**.
+4. Запустите игру снова.
+
+Если вы скачали только `.dll`, скачайте полный release-архив. В нем уже есть `PatchUnityCoreModule.ps1`.
 
 Скрипт нужно запускать только тогда, когда мод перестал работать после обновления игры.
 
